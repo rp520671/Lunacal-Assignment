@@ -1,0 +1,58 @@
+.btn {
+  background: rgba(255, 255, 255, 0.03);
+  box-shadow: -0.5px -0.5px 6.9px rgba(255, 255, 255, 0.25),
+    9px 10px 7.1px rgba(0, 0, 0, 0.4),
+    inset 0px 0px 48.9064px rgba(255, 255, 255, 0.05),
+    inset 0px 3.26043px 3.26043px rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(52.28px);
+  border-radius: 104px;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.btn1 {
+  background: linear-gradient(139.14deg, #303439 12.4%, #161718 94.96%);
+  box-shadow: 4px 5px 30px 5px rgba(16, 18, 19, 1);
+
+  box-shadow: -5px -3px 30px -10px rgba(150, 190, 231, 1);
+}
+
+.btn2 {
+  background: linear-gradient(139.14deg, #8ab3e5 12.4%, #161718 94.96%);
+  box-shadow: 4px 5px 30px 5px rgba(16, 18, 19, 1);
+  color: white;
+
+  box-shadow: -5px -3px 30px -10px rgba(150, 190, 231, 1);
+}
+
+
+.carousel-container {
+  display: flex;
+  overflow-x: hidden;
+  position: relative;
+  gap: 4;
+  height: 550px;
+  padding-top: 20px;
+  padding-left: 5px;
+}
+
+.carousel-images {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+
+}
+
+
+.carousel-image {
+  min-width: 170px;
+  height: 179px;
+  margin: 0 10px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  filter: grayscale(100%);
+}
+
+.carousel-image:hover {
+  filter: grayscale(0%);
+  transform: rotate(-3deg) scale(1.15);
+  transition: all 0.5s ease-in-out;
+}

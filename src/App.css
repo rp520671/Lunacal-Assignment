@@ -1,0 +1,16 @@
+@media (max-width: 1024px) {
+    
+    .px-14 {
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    
+    .px-14 {
+      padding-left: 5px;
+      padding-right: 5px;
+    }
+  }
+  
